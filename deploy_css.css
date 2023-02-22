@@ -1,0 +1,124 @@
+.page {
+  max-width: 1124px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+
+}
+.page__header {
+    max-width: 1124px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 72px;
+    margin: 0 auto 0 auto;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 700px;
+
+}
+.logo {
+ height: 12px;
+width: 120px;
+border-radius: 0px;
+
+}
+.header__basket-enter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 27px;
+
+}
+.header__enter {
+width: 78px;
+height: 40px;
+border: 1px solid #E0E0E0;
+border-radius: 2px;
+background-color: #ffff;
+}
+.header__basket {
+  height: 22px;
+  width: 19px;
+ }
+
+.search__form {
+  max-width: 962px;
+  width: 100%;
+  min-height: 48px;
+
+  display: flex;
+  align-items: end;
+  margin: 32px auto 0 auto;
+  border-bottom: 1px solid #757575;
+  opacity: 0.5;
+}
+ .seacrh__item {
+   max-width: 400px;
+   width: 100%;
+   border-style: none;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;
+   color: #626262;
+ }
+ .restrons {
+  margin: 56px auto;
+  max-width: 962px;
+  width: 100%;
+ }
+.restrons__cards {
+  max-width: 962px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+  gap: 16px 16px;
+}
+.restron__card:hover {
+background-color: #F2F2F2;
+box-shadow: 0px 0px 10px #59BD5A;
+}
+.restrons__title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #1D1D1D;
+
+}
+.restron__name {
+margin: 16px auto 0 0;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #1D1D1D;
+}
+.restron__menu {
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #626262;
+margin: 4px auto 0 0;
+}
+.restron__time-prepare {
+  font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+color: #1D1D1D;
+margin: 4px auto 0 0;
+}
+.restron__foto {
+height: 256px;
+width: 308px;
+
+}
