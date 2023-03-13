@@ -2,28 +2,24 @@
 const formElement = document.querySelector(".popup");
 // Находим поля формы в DOM
 const nameInput = formElement.querySelector("#name");
-const jobInput = formElement.querySelector("#job");
+const jobInput = formElement.querySelector("#password");
 const popupCloseButtonElement = formElement.querySelector(".popup__close");
-const popupOpenButtonElement = document.querySelector(".profile__button-edit");
+const popupOpenButtonElement = document.querySelector(".header__enter");
 const popupSaveButtonElement = formElement.querySelector(".popup__btn-save");
-const profileTitle = document.querySelector(".profile__title");
-const profileSubtitle = document.querySelector(".profile__subtitle");
+console.log(formElement);
+
 
 const popupForm = formElement.querySelector(".popup__form");
 function addPopupVisibility () {
-nameInput.value = profileTitle.textContent;
-jobInput.value = profileSubtitle.textContent;
-  formElement.classList.toggle('popup_opened');
+  formElement.classList.toggle('popup_open');
 }
 function closePopupVisibility () {
-  formElement.classList.toggle('popup_opened');
+  formElement.classList.toggle('popup_open');
 }
 // Обработчик «отправки» формы, хотя пока
 // она никуда отправляться не будет
 function handleFormSubmit (evt) {
     evt.preventDefault();
-profileTitle.textContent = nameInput.value;
-profileSubtitle.textContent = jobInput.value;
 closePopupVisibility();
   }
 // // Прикрепляем обработчик к форме:
