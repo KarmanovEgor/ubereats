@@ -1,0 +1,8 @@
+.restrons__cards {
+  max-width: 962px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+  gap: 36px 10px;
+}

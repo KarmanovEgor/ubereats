@@ -1,0 +1,7 @@
+.header__basket {
+  height: 22px;
+  width: 19px;
+}
+.header__basket:hover {
+  box-shadow: 1px 5px 10px #59BD5A;
+}

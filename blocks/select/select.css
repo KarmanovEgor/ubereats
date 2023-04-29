@@ -1,0 +1,11 @@
+.select {
+  width: 227px;
+  height: 40px;
+  background: #3B3B3B;
+  border-radius: 2px;
+  color: #ffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+}

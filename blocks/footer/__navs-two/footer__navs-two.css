@@ -1,0 +1,10 @@
+.footer__navs-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ffff;
+  max-width: 962px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 40px 0 38px 0;
+}

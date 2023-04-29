@@ -1,0 +1,16 @@
+.seacrh__item {
+  max-width: 400px;
+  width: 100%;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.79px;
+  text-align: left;
+  color: #626262;
+}
+.seacrh__item:focus {
+  outline-color: #59BD5A;
+  outline-style: solid;
+  outline-width: 3px;
+}

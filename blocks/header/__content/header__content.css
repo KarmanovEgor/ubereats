@@ -1,0 +1,10 @@
+.header__content {
+  box-sizing: border-box;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 964px;
+  width: 100%;
+
+}

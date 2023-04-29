@@ -1,0 +1,24 @@
+{
+  "name": "deploysite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "css-to-bem-file-structure deploy_css.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarmanovEgor/ubereats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarmanovEgor/ubereats/issues"
+  },
+  "homepage": "https://github.com/KarmanovEgor/ubereats#readme",
+  "devDependencies": {
+    "css-to-bem-file-structure": "0.0.5"
+  }
+}

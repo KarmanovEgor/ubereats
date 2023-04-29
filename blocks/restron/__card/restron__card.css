@@ -1,0 +1,8 @@
+.restron__card:hover {
+  transform: scale(1.015);
+  transition: 0.5s;
+  background-color: #F2F2F2;
+  opacity: 0.8;
+  box-shadow: 0px 0px 10px #59BD5A;
+
+}

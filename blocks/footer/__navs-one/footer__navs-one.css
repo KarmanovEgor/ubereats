@@ -1,0 +1,8 @@
+.footer__navs-one {
+  max-width: 962px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 32px 0 48px 0;
+  display: flex;
+  border-bottom: 1px solid #ffff;
+}

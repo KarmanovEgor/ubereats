@@ -1,0 +1,11 @@
+.btn__up {
+  position: absolute;
+  background-image: url('/img/btn-up.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: 16px;
+  bottom: 24px;
+  height: 80px;
+  width: 80px;
+  border: 0;
+}

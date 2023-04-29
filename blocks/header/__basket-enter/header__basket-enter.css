@@ -1,0 +1,7 @@
+.header__basket-enter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 27px;
+
+}

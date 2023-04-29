@@ -1,0 +1,10 @@
+.footer__social {
+  display: flex;
+  color: #ffff;
+  box-sizing: border-box;
+  padding-top: 34px;
+  padding-bottom: 15px;
+  max-width: 226px;
+  width: 100%;
+  margin: 0;
+}
